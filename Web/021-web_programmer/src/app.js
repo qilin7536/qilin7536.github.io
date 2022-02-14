@@ -74,8 +74,8 @@ html{
 }
 
 /*
-* 宝贝，今天教你写代码。
-* 用代码画一个爱心。
+* 现在来展示下写代码。
+* 用代码画个东西。
 */
 
 /* 首先，来一个画板 */
@@ -95,7 +95,7 @@ html{
   -webkit-transform-origin: 50% 0% 0;`}
 }
 
-/* 画一个方块，当左心室和右心室 */
+/* 画一个方块 */
 .heart {
   width: 100px;
   height: 100px;
@@ -108,7 +108,7 @@ html{
   transform: rotate(45deg);
 }
 
-/* 画上左心房 */
+/* 画上左边 */
 .heart::before {
   content: '';
   background: #E88D8D;
@@ -120,7 +120,7 @@ html{
   top: 1px;
 }
 
-/* 再画上右心房 */
+/* 再画上右边 */
 .heart::after {
   content: '';
   background: #E88D8D;
@@ -132,7 +132,7 @@ html{
   top: -38px;
 }
 
-/* 太单调了，让心跳动起来 */
+/* 太单调了，让它跳动起来 */
 @keyframes throb {
   0% {
     transform: scale(1) rotate(45deg);
@@ -151,7 +151,7 @@ html{
 }
 /*
 * Ok，完成！
-* 宝贝，情人节快乐！
+* 小妖精，情人节快乐！
 */
 
 `
